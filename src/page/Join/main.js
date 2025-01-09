@@ -3,11 +3,13 @@ import Card from "../../component/Card/Card";
 import Input from "../../component/Input/Input";
 import FlexBox from "../../component/Layout/FlexBox";
 import Page from "../../component/Layout/Page";
+import Text from "../../component/Text/Text";
 
 function Join() {
     return (
         <>
             <Page>
+                <Text>JOIN</Text>
                 <FlexBox>
                     <Card>
                         <FlexBox gap="10px">
